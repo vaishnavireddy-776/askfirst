@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_URL = os.getenv("API_URL", "askfirst-production.up.railway.app")
+API_URL = os.getenv("API_URL", "https://askfirst-production.up.railway.app")
 
 st.set_page_config(
     page_title="AI Chat",
